@@ -43,7 +43,9 @@
         <div class="site-section-title">
           <h2>Why Choose Us?</h2>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores quisquam saepe architecto error corporis aliquam. Cum ipsam a consectetur aut sunt sint animi, pariatur corporis, eaque, deleniti cupiditate officia.</p>
+        <p>
+          Gharworld.com brings together property information - location, price, pictures, interactive maps and property features through dynamic website, mobile interface and SMS. We welcome the participation from real estate players - sellers, renters, agents, builders, developers, investors for dissemination of information in trustworthy environment.
+        </p>
       </div>
     </div>
 
@@ -51,15 +53,17 @@
       <div class="col-md-6 col-lg-4">
         <a href="#" class="service text-center">
           <span class="icon flaticon-house"></span>
-          <h2 class="service-heading">Research Subburbs</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure qui natus perspiciatis ex odio molestia.</p>
+          <h2 class="service-heading">Website Listing</h2>
+          <p>
+            Your property gets listed until the property sold out or rented out .
+          </p>
           <p><span class="read-more">Read More</span></p>
         </a>
       </div>
       <div class="col-md-6 col-lg-4">
         <a href="#" class="service text-center">
           <span class="icon flaticon-sold"></span>
-          <h2 class="service-heading">Sold Houses</h2>
+          <h2 class="service-heading">Buyers Matching</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure qui natus perspiciatis ex odio molestia.</p>
           <p><span class="read-more">Read More</span></p>
         </a>
@@ -67,8 +71,10 @@
       <div class="col-md-6 col-lg-4">
         <a href="#" class="service text-center">
           <span class="icon flaticon-camera"></span>
-          <h2 class="service-heading">Security Priority</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure qui natus perspiciatis ex odio molestia.</p>
+          <h2 class="service-heading">Posting on Social Medias</h2>
+          <p>
+            7 Post each week until 6 months of Listing. Facebook Group Posting
+          </p>
           <p><span class="read-more">Read More</span></p>
         </a>
       </div>
