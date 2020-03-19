@@ -21,7 +21,7 @@
 		<table class="table white card-shadow">
 			<thead class="grey lighten-3">
 				<tr class="text-muted">
-					<th>ID</th>
+					<th>#</th>
 					<th>Name</th>
 					<th></th>
 				</tr>
@@ -29,7 +29,7 @@
 			<tbody>
 				@foreach ($cities as $city)
 				<tr>
-					<td class="align-self-center">{{ $city->id }}</td>
+					<td class="align-self-center">{{ $loop->iteration }}</td>
 					<td>
 						<form action="{{ route('admin.cities.update', $city->id) }}" method="post" class="form form-inline">
 							@csrf

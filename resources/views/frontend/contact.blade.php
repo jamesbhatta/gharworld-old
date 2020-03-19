@@ -7,7 +7,6 @@
         border: 2px solid rgba(0, 0, 0, 0.4);
         border-radius: 50%;
     }
-
 </style>
 @endpush
 @section('content')
@@ -15,7 +14,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-8 mb-5">
-                <form action="#" class="px-5 pb-5 pt-3 bg-white border">
+                <form action="{{ route('contact.process') }}" method="POST" class="px-5 pb-5 pt-3 bg-white border">
+                @csrf
                     <div class="form-group">
                         <div class="d-flex">
                             <div class="pr-3 align-self-center">
@@ -32,27 +32,30 @@
                         </div>
                     </div>
                     <div class="row form-group">
+                    @include('partials.alerts')
+                    </div>
+                    <div class="row form-group">
                         <div class="col-md-12 mb-3 mb-md-0">
                             <label class="font-weight-bold" for="fullname">Full Name</label>
-                            <input type="text" id="fullname" class="form-control" placeholder="Full Name">
+                            <input type="text" name="fullname" class="form-control" value="{{ old('fullname') }}"  placeholder="Full Name">
                         </div>
                     </div>
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="font-weight-bold" for="email">Email</label>
-                            <input type="email" id="email" class="form-control" placeholder="Email Address">
+                            <input type="email" id="email" name="email" class="form-control" value="{{ old('email') }}" placeholder="Email Address">
                         </div>
                     </div>
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="font-weight-bold" for="email">Subject</label>
-                            <input type="text" id="subject" class="form-control" placeholder="Enter Subject">
+                            <input type="text" name="subject" class="form-control" value="{{ old('subject') }}" placeholder="Enter Subject">
                         </div>
                     </div>
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="font-weight-bold" for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Say hello to us"></textarea>
+                            <textarea name="message" name="message" cols="30" rows="5" class="form-control" placeholder="Say hello to us">{{ old('message') }}</textarea>
                         </div>
                     </div>
                     <div class="row form-group">

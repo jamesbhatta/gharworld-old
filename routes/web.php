@@ -10,6 +10,9 @@ Route::get('/search', 'Frontend\PropertyController@search')->name('property.sear
 
 Route::get('/about', 'Frontend\PageController@about')->name('about');
 Route::get('/contact', 'Frontend\PageController@contact')->name('contact');
+Route::post('/contact', 'Frontend\PageController@processContactForm')->name('contact.process');
+
+Route::post('/enquiry', 'Frontend\PageController@processEnquiry')->name('enquiry.process');
 
 Route::group(['prefix' => 'dashboard', 'middleware' => ['auth']], function () {
 	Route::get('/', 'DashboardController@index')->name('dashboard');

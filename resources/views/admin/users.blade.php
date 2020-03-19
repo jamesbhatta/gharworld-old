@@ -26,8 +26,6 @@
 					</div>
 				</div>
 				<div class="small py-3">
-					<span class="text-green font-weight-bold"><i class="fas fa-arrow-up"></i> 5.56 %</span>
-					Since last month
 				</div>
 			</div>
 		</div>
@@ -46,8 +44,6 @@
 					</div>
 				</div>
 				<div class="small py-3">
-					<span class="text-green font-weight-bold"><i class="fas fa-arrow-up"></i> 5.56 %</span>
-					Since last month
 				</div>
 			</div>
 		</div>

@@ -15,6 +15,10 @@ class PropertyController extends Controller
 		// $cities = City::orderBy('name')->get();
 		$relatedProperties = Property::with(['images', 'city'])->where('city_id', $property->city_id)->Where('property_for', $property->property_for)->whereNotIn('id', [$property->id])->get()->take('6');
 
+		if (count($relatedProperties) == 0) {
+			$relatedProperties = Property::with(['images', 'city'])->where('property_for', $property->property_for)->whereNotIn('id', [$property->id])->get()->take('6');
+		}
+
 		return view('frontend.property.show', compact([
 			'property',
 			// 'cities',

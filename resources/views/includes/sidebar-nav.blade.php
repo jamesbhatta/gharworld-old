@@ -1,4 +1,4 @@
-<div class="py-4 px-2">
+<div class="py-4 px-2" style="position: sticky; top: 20px;">
     <div class="text-center mb-3">
         <img class="rounded-circle mb-3" src="{{ Auth::user()->gravatar }}" alt="" style="height: 100px; width: 100px; border-radius: 50%;">
         <h4 class="h4-responsive font-weight-light text-capitalize mdb-color-text">{{ Auth::user()->name }}</h4>

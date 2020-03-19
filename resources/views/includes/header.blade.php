@@ -15,7 +15,7 @@
                     <a href="{{ route('home') }}">
                         <img src="{{ asset('logo/logo.png') }}" alt="" style="max-height: 60px;">
                     </a>
-                    <a href="{{ route('home') }}" class="h2 mb-0"><strong>Ghar Love<span class="text-danger">.</span></strong></a>
+                    <a href="{{ route('home') }}" class="h2 mb-0"><strong><span class="text-secondary">Ghar</span>World<span class="text-secondary">.</span></strong></a>
                 </h1>
             </div>
             <div class="ml-auto">
