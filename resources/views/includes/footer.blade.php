@@ -4,7 +4,9 @@
       <div class="col-lg-4">
         <div class="mb-5">
           <h3 class="footer-heading mb-4">About Ghar World</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque, consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima minus odio!</p>
+          <p>
+            Gharworld.com is a platform to disseminate real estate industry information. We provide comprehensive detail on real estate properties which are for sale or rent, including current news and information about real estate market.
+          </p>
         </div>
 
       </div>
