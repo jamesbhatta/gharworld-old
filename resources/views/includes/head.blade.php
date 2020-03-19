@@ -6,6 +6,7 @@
   @yield('meta')
 
   <title>{{ config('app.name', 'Laravel') }} | @yield('title')</title>
+  <link rel="shortcut icon" href="logo/logo.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
   <link rel="stylesheet" href="{{ asset('/theme/fonts/icomoon/style.css') }} ">
 
