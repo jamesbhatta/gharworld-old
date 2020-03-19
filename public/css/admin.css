@@ -1,0 +1,101 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.card-shadow{
+	box-shadow: 0 0px 15px 2px rgba(143, 143, 143, 0.09);
+}
+.bg-ink{
+	background-color: #667bf1;
+}
+.text-ink{
+	color: #667bf1;
+}
+.bg-green{
+	background-color: #24e873;
+}
+.text-green{
+	color: #24e873;
+}
+.bg-red{
+	background-color: #fc5d51;
+}
+.text-red{
+	color: #fc5d51;
+}
+.side{
+	flex: 15%;
+	background-color: #384951;
+	min-height: 100vh;
+}
+@media only screen and (max-width: 800px) {
+	.side{
+		background-color: #fff;
+		display: none;
+		width: 100%;
+		flex: 100%;
+		position: absolute:
+		top: 0;
+		right: 0;
+	}
+	.main{
+		flex: 100%;
+	}
+}
+.main{
+	flex: 85%;
+	background-color: #f9f9f9;
+}
+.sidebar-list{
+	font-weight: 400;
+}
+.sidebar-list-item{
+	/*margin-top: 10px;*/
+	margin-bottom: px;
+}
+.sidebar-list-item a{
+	color: #cbc9c9;
+}
+.sidebar-list-item a:hover{
+	color: #fff;
+	color: #25c3ca;
+}
+.sidebar-list-item a i{
+	margin-right: 15px;
+}
+.sidebar-list-item a span{
+	float: right;
+}
+
+/* .sidebar-card{
+	background-color: #3b4d55;
+	color: #efefef;
+}
+.sidebar-card .card-header{
+	background-color: transparent;
+}
+.sidebar-card .card-text{
+	color: #eae6e6!important;
+}
+.sidebar-card .btn{
+	border-color: #eae6e6!important;
+	color: #eae6e6!important;
+} */
+
+.topbar-nav{
+	color: #667bf1;
+}
+.topbar-nav i{
+	color: #667bf1;
+}
+#dashboard{
+	color: #929394;
+}
+
+h5.page-title{
+	font-weight: 500;
+	color: #598aa3;
+	color: #929394;
+}

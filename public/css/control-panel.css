@@ -1,0 +1,67 @@
+ /**
+ * Control Panel sidebar
+ **/
+ .user-sidebar-list{
+    padding-left: 0px;
+    /*opacity: 0.9;*/
+}
+.user-sidebar-list li{
+    list-style: none;
+    background-color: #fcfcfc;
+    margin-bottom: 5px;
+}
+.user-sidebar-list li a{
+    display: block;
+    padding: 10px;
+    color: #7b7474;
+}
+.user-sidebar-list li a i{
+    margin-right: 10px;
+    color: #aaaaaa;
+}
+.user-sidebar-list li a:hover{
+    /*background-color: #f8fafc;*/
+    background-color: #f2f2f2;
+}
+.user-sidebar-list li a:hover::after{
+    content: "\203A";
+    color: #26c6da;
+    float: right;
+    padding-left: 1px;
+}
+
+ /**
+ * Control Panel Property Listing
+ **/
+ #backend-property-list .property-entry{}
+ #backend-property-list .property-entry .property-thumbnail{
+    flex: 0 0 30%;
+}
+.action-list li a,
+.action-list li button.btn-light,{
+    background-color: #f5f5f5!important;
+}
+.action-list li a,
+.action-list li button{
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+.action-list li a i,
+.action-list li button.btn-light i{
+    color: #918c8c;
+}
+.no-properties{
+    background-color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+}
+.no-properties .icon{
+    font-size: 7em;
+    color: #ebebeb;
+}
+.no-properties .title{
+    font-size: 28px;
+    color: #acacac;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
